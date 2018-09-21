@@ -3,7 +3,76 @@ html {
 }
 
 body {
-  margin: 0;
-  min-height: 100%;
-  font: 16px / 1 sans-serif;
+  font: 16px sans-serif;
+
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+
+
+@media (min-width: 464px) {
+
+  em {
+    text-emphasis: bold;
+  }
+  li {
+    margin: 0 10px 0 10px
+  }
+
+  .topnav {
+   display: flex;
+   list-style: none;
+   font-size: 22 px;
+   line-height: 25px;
+   margin-right: 15px;
+  }
+  .cat img {
+    border: 3px solid black;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    width: 665px;
+    height: 650px;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3f3f3;
+  }
+
+.image1 {
+  width: 675px;
+  padding: 20px 20px 0 20px
+}
+.number {
+  font-size: 20px;
+  margin-left: 12px;
+  margin-top: 5px;
+  color: #cacaca;
+ font-weight: bold;
+}
+.whodunit {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.whodunit img {
+  width: 25px;
+  height: 25px
+}
+header {
+  font-size: 35px;
+  margin: 10px 0 0 20px;
+
+}
+aside {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  }
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 175px;
+}
 }
