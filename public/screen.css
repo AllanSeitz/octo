@@ -57,13 +57,23 @@ aside {
 }
 .wrapper {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   margin-left: 5px;
 }
-@media (min-width: 464px) {
+@media (max-width: 500px) {
   em {
     text-emphasis: bold;
   }
   li {
     margin: 0 10px 0 10px;
   }
+  .topnav {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 12px;
+    line-height: 15px;
+    margin-right: 5px;
+  }
+}
